@@ -1,0 +1,18 @@
+{
+  "name": "pf-veron",
+  "version": "1.0.0",
+  "description": "sitio web de tipo fanpage sobre wes anderson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "agostina veron",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5"
+  }
+}

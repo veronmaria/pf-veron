@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffb6c1;
+  font-family: "Playfair Display", serif;
+}
+
+.navbar {
+  padding: 0.625rem;
+}
+.navbar__logo {
+  color: #d64040;
+  font-size: 1.5625rem;
+  font-weight: 600;
+}
+.navbar__collapse {
+  align-items: center;
+  justify-content: end;
+}
+.navbar__link {
+  color: #6c77b8;
+}
+.navbar__link:hover {
+  text-decoration: underline;
+  color: #6c77b8;
+}
+
+/*# sourceMappingURL=style.css.map */
