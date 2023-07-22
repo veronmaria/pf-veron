@@ -53,43 +53,46 @@
   <!--contenido principal-->
   <main>
     <!--seccion principal-->
-    <section>
-      <div class="container">
-        <!--titulo de la seccion principal-->
-        <h2 class="">Filmografía</h2>
-        <!--descripcion de la seccion principal-->
-        <p class="">
-          Recopilamos todas las películas y cortometrajes de este magnífico creador para que puedas sumergirte en su mundo
-        </p>
+    <section class="seccion-principal">
+      <div class="container-fluid">
+        <div class="row">
+          <!--titulo de la seccion principal-->
+          <h2 class="seccion-principal__titulo">Filmografía</h2>
+          <!--descripcion de la seccion principal-->
+          <p class="seccion-principal__descripcion">
+            Recopilamos todas las películas y cortometrajes de este magnífico creador para que puedas sumergirte en su mundo
+          </p>
+        </div>
       </div>
     </section>
     <!--seccion peliculas-->
-    <section>
+    <section class="seccion">
       <div class="container">
         <div class="row">
-          <h3>Películas</h3>
+          <h3 class="seccion__titulo">Películas</h3>
+          <hr>
         </div>
         <div class="row">
           <!--pelicula 1-->
           <div class="col-12 col-md-6">
             <img class="img-fluid" src="/img/pelicula-1.jpg" alt="poster de la pelicula the grand hotel budapest">
-            <h5>The Grand Hotel Budapest</h5>
-            <div class="collapse" id="pelicula-1">
+            <h5 class="seccion__titulo">The Grand Hotel Budapest</h5>
+            <div class="collapse seccion__texto" id="pelicula-1">
               <p>Año de estreno: 2014</p>
               <p>Duración: 100min aprox</p>
               <p>Reparto:Ralph Fiennes, Tony Revolori, F. Murray Abraham, Mathieu Amalric, Adrien Brody, Willem Dafoe, Jeff Goldblum, Saoirse Ronan, Edward Norton, Jude Law, Tilda Swinton, Harvey Keitel, Tom Wilkinson, Bill Murray, Owen Wilson, entre otros.</p>
               <p>Género: Comedia, Drama, Aventura</p>
               <p>Sinopsis:La película sigue las extraordinarias aventuras de Gustave y Zero Moustafa, el botones que se convierte en su amigo más leal. La historia involucra un robo, un asesinato y la búsqueda de una valiosa pintura renacentista, todo ello en medio de un cambiante paisaje político y social del continente.</p>
             </div>
-            <button type="button" data-bs-toggle="collapse" data-bs-target="#pelicula-1" aria-controls="pelicula-1" aria-expanded="false">
+            <button class="boton-2" type="button" data-bs-toggle="collapse" data-bs-target="#pelicula-1" aria-controls="pelicula-1" aria-expanded="false">
               <span class="bi bi-chevron-expand"></span>
             </button>
           </div>
           <!--pelicula 2-->
           <div class="col-12 col-md-6">
             <img class="imf-fluid" src="/img/pelicula-2.jpg" alt="poster de la pelicula the french dispatch">
-            <h5>The French Dispatch</h5>
-            <div class="collapse" id="pelicula-2">
+            <h5 class="seccion__titulo">The French Dispatch</h5>
+            <div class="collapse seccion__texto" id="pelicula-2">
               <p>Año de estreno: 2021</p>
               <p>Duración: 107min aprox</p>
               <p>Reparto:Benicio del Toro, Adrien Brody, Tilda Swinton, Léa Seydoux, Frances McDormand, Timothée Chalamet, Lyna Khoudri, Jeffrey Wright, Mathieu Amalric, Stephen Park, Bill Murray, Owen Wilson, Edward Norton, Willem Dafoe, Saoirse Ronan, Christoph Waltz, entre otros.</p>
@@ -103,8 +106,8 @@
           <!--pelicula 3-->
           <div class="col-12 col-md-6">
             <img class="img-fluid" src="/img/pelicula-3.jpg" alt="poster de la pelicula the royal tenenbaums">
-            <h5>The Royal Tenenbaums</h5>
-            <div class="collapse" id="pelicula-3">
+            <h5 class="seccion__titulo">The Royal Tenenbaums</h5>
+            <div class="collapse seccion__texto" id="pelicula-3">
               <p>Año de estreno: 2001</p>
               <p>Duración: 110min aprox</p>
               <p>Reparto:Gene Hackman, Anjelica Huston, Ben Stiller, Gwyneth Paltrow, Luke Wilson, Owen Wilson, Danny Glover, Bill Murray, Alec Baldwin, Seymour Cassel, y otros.</p>
@@ -118,8 +121,8 @@
           <!--pelicula 4-->
           <div class="col-12 col-md-6">
             <img class="img-thumbnail" src="/img/pelicula-4.jpg" alt="poster de la pelicula the darjeeling limited">
-            <h5>The Darjeeling Limited</h5>
-            <div class="collapse" id="pelicula-4">
+            <h5 class="seccion__titulo">The Darjeeling Limited</h5>
+            <div class="collapse seccion__texto" id="pelicula-4">
               <p>Año de estreno: 2007</p>
               <p>Duración: 91min aprox</p>
               <p>Reparto:Owen Wilson, Adrien Brody, Jason Schwartzman, Amara Karan, Wallace Wolodarsky, Waris Ahluwalia, Anjelica Huston, Bill Murray, entre otros.</p>
@@ -134,17 +137,18 @@
       </div>
     </section>
     <!--seccion cortometrajes-->
-    <section>
+    <section class="seccion">
       <div class="container">
         <div class="row">
-          <h3>Cortometrajes</h3>
+          <h3 class="seccion__titulo">Cortometrajes</h3>
+          <hr>
         </div>
         <div class="row">
           <!--corto 1-->
           <div class="col-12 col-md-6">
             <img src="/img/corto-1.jpg" alt="poster del cortometraje Bottle Rocket de Wes Anderson">
-            <h5>Bottle Rocket</h5>
-            <div class="collapse" id="corto-1">
+            <h5 class="seccion__titulo">Bottle Rocket</h5>
+            <div class="collapse seccion__texto" id="corto-1">
               <p>Año de estreno: 1994</p>
               <p>Duración: 13 min aprox</p>
               <p>Reparto:Luke Wilson, Owen Wilson, Robert Musgrave, James Caan, Lumi Cavazos, Andrew Wilson, Temple Nash Jr., entre otros. Dirigido por Wes Anderson.</p>
@@ -158,8 +162,8 @@
           <!--corto 2-->
           <div class="col-12 col-md-6">
             <img src="/img/corto-2.jpg" alt="poster del cortometraje Hotel Chevalier de Wes Anderson">
-            <h5>Hotel Chevalier</h5>
-            <div class="collapse" id="corto-2">
+            <h5 class="seccion__titulo">Hotel Chevalier</h5>
+            <div class="collapse seccion__texto" id="corto-2">
               <p>Año de estreno: 2007</p>
               <p>Duración: 13min aprox</p>
               <p>Reparto:Jason Schwartzman, Natalie Portman</p>
@@ -173,8 +177,8 @@
           <!--corto 3-->
           <div class="col-12 col-md-6">
             <img src="/img/corto-3.jpg" alt="poster del cortometraje Castello Cavalcanti de Wes Anderson">
-            <h5>Castello Cavalcanti</h5>
-            <div class="collapse" id="corto-3">
+            <h5 class="seccion__titulo">Castello Cavalcanti</h5>
+            <div class="collapse seccion__texto" id="corto-3">
               <p>Año de estreno: 2013</p>
               <p>Duración: 8min aprox</p>
               <p>Reparto:Jason Schwartzman</p>
@@ -188,8 +192,8 @@
           <!--corto 4-->
           <div class="col-12 col-md-6">
             <img src="/img/corto-4.jpg" alt="poster del cortometraje Come Together de Wes Anderson">
-            <h5>Come Together</h5>
-            <div class="collapse" id="corto-4">
+            <h5 class="seccion__titulo">Come Together</h5>
+            <div class="collapse seccion__texto" id="corto-4">
               <p>Año de estreno: 2016</p>
               <p>Duración: 4min aprox</p>
               <p>Reparto:Adrien Brody</p>

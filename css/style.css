@@ -11885,13 +11885,29 @@ textarea.form-control-lg {
 .boton-1:hover {
   background-color: #6c77b8;
   color: #fff;
-  border: none;
+  border: #fff;
 }
 .boton-1:hover span {
   background-color: #6c77b8;
 }
 .boton-1:hover span i {
   background-color: #6c77b8;
+}
+
+.boton-2 {
+  background-color: #fff;
+  border-radius: 50%;
+  border-color: #6c77b8;
+}
+.boton-2 span {
+  background-color: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.boton-2 i {
+  color: #6c77b8;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .nav {
@@ -11920,7 +11936,7 @@ textarea.form-control-lg {
   background-image: url(/img/fondo-home.jpg);
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11946,6 +11962,7 @@ textarea.form-control-lg {
   align-items: center;
   background: linear-gradient(to right, rgba(255, 182, 193, 0.95), rgba(255, 219, 225, 0.95));
   text-align: center;
+  padding: 1.5rem 0;
 }
 .seccion__titulo {
   color: #d64040;
@@ -11955,6 +11972,11 @@ textarea.form-control-lg {
 .seccion__descripcion {
   font-family: "Playfair Display", serif;
   font-size: 1rem;
+}
+.seccion__texto {
+  font-family: "Playfair Display", serif;
+  font-size: 0.8rem;
+  padding: 1rem 0;
 }
 
 .footer {
@@ -11978,6 +12000,30 @@ textarea.form-control-lg {
 .footer__enlace i {
   font-size: 1rem;
   margin-left: 1rem;
+}
+
+.seccion-principal {
+  padding: 5rem 0 0 0;
+  background-image: url(/img/fondo-home.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+}
+.seccion-principal__titulo {
+  color: #d64040;
+  font-family: "Playfair Display SC", serif;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.seccion-principal__descripcion {
+  font-family: "Playfair Display", serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

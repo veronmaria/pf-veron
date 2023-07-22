@@ -1,26 +1,25 @@
 @use '../personalizado' as *;
 @use '../componentes/mixins' as *;
 
-.seccion {
+.seccion-principal {
+  padding: 5rem 0 0 0;
+  background-image: url(/img/fondo-home.jpg);
+  background-position: center;
+  background-size:  cover;
   @include seccion-flex;
-  @include gradiente;
   text-align: center;
-  padding: 1.5rem 0;
+  height: 50vh;
   
   &__titulo {
     color: $danger;
     font-family: 'Playfair Display SC', serif;
     font-weight: 700;
+    margin-bottom: 2rem;
   }
 
   &__descripcion {
     font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-  }
-
-  &__texto {
-    font-family: 'Playfair Display', serif;
-    font-size: 0.8rem;
-    padding: 1rem 0;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
   }
 }
