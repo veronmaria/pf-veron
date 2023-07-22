@@ -1,0 +1,39 @@
+@use '../personalizado' as *;
+
+.boton-1 {
+  position: relative;
+  padding: 0.5rem 2rem 0.5rem 0.8rem;
+  font-weight: 500;
+  margin:0 0 2rem 0;
+  background-color: $white;
+  border: solid 1px;
+
+  span {
+    position:absolute;
+    background-color: $secondary;
+    width: 1.5rem;
+    height:1.5rem;
+    top:50%;
+    right: 5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+
+    i {
+      color:$white;
+    }
+  }
+
+  &:hover {
+    background-color: $secondary;
+    color: $white;
+    border: none;
+
+    span {
+      background-color: $secondary;
+      
+      i {
+        background-color: $secondary;
+      }
+    }
+  }
+}

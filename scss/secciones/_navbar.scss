@@ -1,0 +1,26 @@
+@use'../personalizado' as *;
+@use '../componentes/mixins' as *;
+
+.nav {
+  @include gradiente;
+  font-family: 'Playfair Display SC', serif;
+
+  .navbar-brand {
+    color: $danger;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .nav-item {
+    padding: 0;
+
+    .nav-link {
+      color:$secondary;
+      font-weight: 400;
+    }
+
+    &:hover {
+      text-decoration: underline;
+      color: $secondary;
+  }
+  }
+}

@@ -11915,68 +11915,14 @@ textarea.form-control-lg {
   color: #6c77b8;
 }
 
-.home-principal {
-  padding: 5rem 0 0 0;
+.principal {
+  margin: 5rem 0 0 0;
   background-image: url(/img/fondo-home.jpg);
   background-position: center;
   background-size: cover;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
-.home-principal__titulo {
-  color: #d64040;
-  font-family: "Playfair Display SC", serif;
-  font-weight: 700;
-  margin-bottom: 2rem;
-}
-.home-principal__descripcion {
-  font-family: "Playfair Display", serif;
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
-
-.seccion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right, rgba(255, 182, 193, 0.95), rgba(255, 219, 225, 0.95));
-  text-align: center;
-}
-.seccion__titulo {
-  color: #d64040;
-  font-family: "Playfair Display SC", serif;
-  font-weight: 700;
-}
-.seccion__descripcion {
-  font-family: "Playfair Display", serif;
-}
-
-.footer {
-  background: linear-gradient(to right, rgba(255, 182, 193, 0.95), rgba(255, 219, 225, 0.95));
-  text-align: center;
-}
-.footer__logo {
-  text-decoration: none;
-  color: #d64040;
-  font-family: "Playfair Display SC", serif;
-  font-weight: 700;
-  font-size: 1rem;
-}
-.footer__texto {
-  font-family: "Playfair Display", serif;
-  font-size: 0.8rem;
-}
-.footer__enlace {
-  color: #6c77b8;
-}
-.footer__enlace i {
-  font-size: 1rem;
-  margin-left: 1rem;
+.principal__titulo {
+  color: #ffb6c1;
 }
 
 /*# sourceMappingURL=style.css.map */

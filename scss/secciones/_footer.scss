@@ -1,0 +1,29 @@
+@use '../personalizado' as *;
+@use '../componentes/mixins' as *;
+
+.footer {
+  @include gradiente;
+  text-align: center;
+  
+  &__logo {
+    text-decoration: none;
+    color:$danger;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  &__texto {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.8rem;
+  }
+
+  &__enlace {
+    color: $secondary;
+
+    i{
+      font-size: 1rem;
+      margin-left: 1rem;
+    }
+  }
+}

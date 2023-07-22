@@ -1,0 +1,18 @@
+@use '../personalizado' as *;
+@use '../componentes/mixins' as *;
+
+.seccion {
+  @include seccion-flex;
+  @include gradiente;
+  text-align: center;
+  
+  &__titulo {
+    color: $danger;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+  }
+
+  &__descripcion {
+    font-family: 'Playfair Display', serif;
+  }
+}

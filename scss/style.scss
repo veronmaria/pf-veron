@@ -1,2 +1,7 @@
-@use'reset';
-@use'navbar';
+@use 'personalizado';
+@use 'componentes/botones';
+@use 'componentes/mixins';
+@use 'secciones/navbar';
+@use 'secciones/home-principal';
+@use 'secciones/seccion';
+@use 'secciones/footer';

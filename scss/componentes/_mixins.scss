@@ -1,0 +1,12 @@
+@use '../personalizado' as *;
+
+@mixin gradiente {
+  background: linear-gradient(to right, rgba($primary,0.95), rgba($pink-light,0.95));
+}
+
+@mixin seccion-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
