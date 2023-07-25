@@ -1,0 +1,21 @@
+@use '../personalizado' as *;
+@use '../componentes/mixins' as *;
+
+.iniciar-sesion {
+  padding: 5rem 0 0 0;
+  @include gradiente;
+  @include seccion-flex;
+  height: 90vh;
+
+  &__contenido {
+    text-align: center;
+    @include media-breakpoint-up (sm) {
+      width: 50vw;
+    }
+
+    label {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+    }
+  }
+}

@@ -12026,4 +12026,26 @@ textarea.form-control-lg {
   margin-bottom: 2rem;
 }
 
+.iniciar-sesion {
+  padding: 5rem 0 0 0;
+  background: linear-gradient(to right, rgba(255, 182, 193, 0.95), rgba(255, 219, 225, 0.95));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.iniciar-sesion__contenido {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .iniciar-sesion__contenido {
+    width: 50vw;
+  }
+}
+.iniciar-sesion__contenido label {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
